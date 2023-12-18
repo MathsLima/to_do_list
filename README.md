@@ -5,17 +5,19 @@ It is a to-do list project, where the user can register a new task, change it, d
 
 The application is local, uses Django for web development, HTML language and FrameWork Bootstrp to create the page layout. For the database, local Sqlite3 was used.
 
-cria o ambiente virtual: python -m venv .venv  
+Basic Commands:
 
-altera a privacidade do codigo: Set-Executionpolicy -Scope Process -ExecutionPolicy ByPass
+creates the virtual environment: python -m venv .venv
 
-ativa o ambiente virtual: .\.venv\Scripts\activate
+changes code privacy: Set-Executionpolicy -Scope Process -ExecutionPolicy ByPass
 
-cria a estrutura basica do projeto: django-admin startproject setup .
+activates the virtual environment: .\.venv\Scripts\activate
 
-executa o ambiente django web: python manage.py runserver
+creates the basic project structure: django-admin startproject setup .
 
-cria a app: python manage.py startapp todos
+runs the django web environment: python manage.py runserver
 
-migracao do sqlite:  python manage.py migrate
-                     python manage.py makemigrations
+create the app: python manage.py startapp all
+
+sqlite migration: python manage.py migrate
+                      python manage.py makemigrations
