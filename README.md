@@ -1,23 +1,23 @@
-# To Do List
-Project developed in Python using the Django Framework, HTML, BootStrap and Sqlite3.
+# Lista de afazeres
+Meu primeiro projeto utilizando Framework Django com linguagem Python, realizado durante uma trilha de aprendizagem.
 
-It is a to-do list project, where the user can register a new task, change it, delete it and complete it. Tasks are organized according to the closest due date.
+O projeto é uma lista de tarefas, onde o usuário pode cadastrar uma nova tarefa, alterá-la, excluí-la e concluí-la. As tarefas são organizadas de acordo com a data de vencimento mais próxima.
 
-The application is local, uses Django for web development, HTML language and FrameWork Bootstrp to create the page layout. For the database, local Sqlite3 was used.
+A aplicação é local, utiliza Django para desenvolvimento web, HTML e Bootstrp para criação do layout da página. Para o banco de dados foi utilizado Sqlite3 local.
 
-Basic Commands:
+Comandos Básicos:
+```
+cria o ambiente virtual: python -m venv .venv
 
-creates the virtual environment: python -m venv .venv
+altera a privacidade do código: Set-Executionpolicy -Scope Process -ExecutionPolicy ByPass
 
-changes code privacy: Set-Executionpolicy -Scope Process -ExecutionPolicy ByPass
+ativa o ambiente virtual: .\.venv\Scripts\activate
 
-activates the virtual environment: .\.venv\Scripts\activate
+cria a estrutura básica do projeto: django-admin startproject setup .
 
-creates the basic project structure: django-admin startproject setup .
+executa o ambiente web Django: python manage.py runserver
 
-runs the django web environment: python manage.py runserver
+crie o aplicativo: python manage.py startapp all
 
-create the app: python manage.py startapp all
-
-sqlite migration: python manage.py migrate
-                      python manage.py makemigrations
+migração sqlite: migração python manager.py
+```
